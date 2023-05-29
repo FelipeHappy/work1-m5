@@ -47,7 +47,7 @@
         "IdentityPoolName": "work1m5455412e9_identitypool_455412e9__amplify",
         "UserPoolName": "work1m5455412e9_userpool_455412e9"
       },
-      "lastPushTimeStamp": "2023-05-29T02:13:01.723Z",
+      "lastPushTimeStamp": "2023-05-29T02:34:06.311Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-work1m5-amplify-184612-deployment/amplify-cfn-templates/auth/work1m5455412e9-cloudformation-template.json",
         "logicalId": "authwork1m5455412e9"
