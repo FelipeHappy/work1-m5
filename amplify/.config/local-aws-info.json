@@ -1,0 +1,10 @@
+{
+  "staging": {
+    "configLevel": "amplifyAdmin"
+  },
+  "amplify": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "/Users/samtech/.amplify/awscloudformation/iZg9UPU16z"
+  }
+}

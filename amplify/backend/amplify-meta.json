@@ -1,0 +1,57 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-work1m5-amplify-184612-authRole",
+      "UnauthRoleArn": "arn:aws:iam::375624675269:role/amplify-work1m5-amplify-184612-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::375624675269:role/amplify-work1m5-amplify-184612-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-work1m5-amplify-184612-deployment",
+      "UnauthRoleName": "amplify-work1m5-amplify-184612-unauthRole",
+      "StackName": "amplify-work1m5-amplify-184612",
+      "StackId": "arn:aws:cloudformation:us-east-2:375624675269:stack/amplify-work1m5-amplify-184612/74de27d0-fda9-11ed-8aaa-0a0eb0d7bf79",
+      "AmplifyAppId": "d2bthvs0opdd8r"
+    }
+  },
+  "auth": {
+    "work1m5455412e9": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "output": {
+        "UserPoolId": "us-east-2_opEZKIRVm",
+        "AppClientIDWeb": "s0brsh8q8f40qg1l55fvjeaqf",
+        "AppClientID": "igln14gkjq1q96thdn30435vn",
+        "IdentityPoolId": "us-east-2:11fa768b-69e8-4d28-9c26-b6bed0dfa8ae",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:375624675269:userpool/us-east-2_opEZKIRVm",
+        "IdentityPoolName": "work1m5455412e9_identitypool_455412e9__amplify",
+        "UserPoolName": "work1m5455412e9_userpool_455412e9"
+      },
+      "lastPushTimeStamp": "2023-05-29T02:06:39.916Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-work1m5-amplify-184612-deployment/amplify-cfn-templates/auth/work1m5455412e9-cloudformation-template.json",
+        "logicalId": "authwork1m5455412e9"
+      }
+    }
+  }
+}
