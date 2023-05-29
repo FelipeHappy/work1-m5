@@ -47,11 +47,55 @@
         "IdentityPoolName": "work1m5455412e9_identitypool_455412e9__amplify",
         "UserPoolName": "work1m5455412e9_userpool_455412e9"
       },
-      "lastPushTimeStamp": "2023-05-29T02:34:06.311Z",
+      "lastPushTimeStamp": "2023-05-29T04:03:43.414Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-work1m5-amplify-184612-deployment/amplify-cfn-templates/auth/work1m5455412e9-cloudformation-template.json",
         "logicalId": "authwork1m5455412e9"
       }
+    }
+  },
+  "api": {
+    "work1m5": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "uybpskt5tfh7zb26whbvfa7qcm",
+        "GraphQLAPIEndpointOutput": "https://nrxeao43oba3df6s7yoaid5oqy.appsync-api.us-east-2.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-bvi4e7xvgfgkfeuvyjknwrias4"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-work1m5-amplify-184612-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiwork1m5"
+      },
+      "lastPushTimeStamp": "2023-05-29T04:03:46.626Z",
+      "lastPushDirHash": "gX5NmTlKNf2oAj0/2C+IZOPjFNY="
+    }
+  },
+  "storage": {
+    "imagestorage": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "lastPushTimeStamp": "2023-05-29T04:03:43.417Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-work1m5-amplify-184612-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
+        "logicalId": "storageimagestorage"
+      },
+      "output": {
+        "BucketName": "work1m59cd9ad6f40d34f4ca2835a9ee7abbd80184612-amplify",
+        "Region": "us-east-2"
+      },
+      "lastPushDirHash": "sISX1UwyJVUgDoeqH0TAV3cgCXU="
     }
   }
 }

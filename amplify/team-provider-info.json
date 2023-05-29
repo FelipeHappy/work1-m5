@@ -27,6 +27,12 @@
     "categories": {
       "auth": {
         "work1m5455412e9": {}
+      },
+      "api": {
+        "work1m5": {}
+      },
+      "storage": {
+        "imagestorage": {}
       }
     }
   }

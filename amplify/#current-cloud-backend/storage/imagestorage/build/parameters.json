@@ -1,0 +1,31 @@
+{
+  "bucketName": "work1m59cd9ad6f40d34f4ca2835a9ee7abbd80",
+  "selectedGuestPermissions": [],
+  "selectedAuthenticatedPermissions": [
+    "s3:PutObject",
+    "s3:GetObject",
+    "s3:ListBucket",
+    "s3:DeleteObject"
+  ],
+  "unauthRoleName": {
+    "Ref": "UnauthRoleName"
+  },
+  "authRoleName": {
+    "Ref": "AuthRoleName"
+  },
+  "s3PrivatePolicy": "Private_policy_726c5e64",
+  "s3ProtectedPolicy": "Protected_policy_726c5e64",
+  "s3PublicPolicy": "Public_policy_726c5e64",
+  "s3ReadPolicy": "read_policy_726c5e64",
+  "s3UploadsPolicy": "Uploads_policy_726c5e64",
+  "authPolicyName": "s3_amplify_726c5e64",
+  "unauthPolicyName": "s3_amplify_726c5e64",
+  "AuthenticatedAllowList": "ALLOW",
+  "GuestAllowList": "DISALLOW",
+  "s3PermissionsAuthenticatedPrivate": "s3:PutObject,s3:GetObject,s3:DeleteObject",
+  "s3PermissionsAuthenticatedProtected": "s3:PutObject,s3:GetObject,s3:DeleteObject",
+  "s3PermissionsAuthenticatedPublic": "s3:PutObject,s3:GetObject,s3:DeleteObject",
+  "s3PermissionsAuthenticatedUploads": "s3:PutObject",
+  "s3PermissionsGuestPublic": "DISALLOW",
+  "s3PermissionsGuestUploads": "DISALLOW"
+}
